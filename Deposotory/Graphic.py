@@ -4,17 +4,14 @@ a = int(input(': '))
 
 hiz_y = []
 
-for i in range(a):
+for i in range(a + 1):
     hiz_y.append(i)
 
-hiz_y.append(a)
 
 hiz_x = []
 
-for i in range(a):
+for i in range(a + 1):
     hiz_x.append(i)
-
-hiz_x.append(a)
 
 plt.plot(hiz_x, hiz_y, label='Hız')
 
