@@ -1,4 +1,5 @@
 import random
+#spdps
 l = ["taş", "kağıt", "makas"]
 while True:
     a = random.choice(l)
