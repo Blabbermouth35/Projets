@@ -11,7 +11,11 @@ def run():
             percentage -= 5
         else:
             percentage += 10
-        print(percentage / 10)
+        if percentage > 1000:
+            print(100)
+            break
+        else:
+            print(percentage / 10)
 
 
 run()
