@@ -30,9 +30,6 @@ run()
 for i in range(len(y)):
     x.append(i)
 
-print(len(x))
-print(len(y))
-
 plt.xlabel('Tries')
 plt.ylabel('Result Percentage')
 plt.title('You have a 69% chance to go through walls, if you fail, it Drops by 0.5%, if you do it, it Rises by 1%')
