@@ -10,6 +10,7 @@ def calculating():
 result = ops[selected_operator](first_num, second_num)
 """
 window = tk.Tk()
+window.title("Calculator")
 frame = tk.Frame(master=window, height=200, width=200)
 frame.pack(fill=tk.BOTH, expand=True)
 written_title = tk.Label(master=frame, text="CALCULATOR")
