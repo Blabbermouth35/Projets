@@ -10,7 +10,7 @@ y = [69.0, ]
 def run():
     percentage = 690
     print(percentage / 10)
-    while percentage < 1000:
+    while percentage < 1000 and percentage > 0:
         if random.randint(1, 100) * 10 > percentage:
             percentage -= 5
             y.append(percentage / 10)
