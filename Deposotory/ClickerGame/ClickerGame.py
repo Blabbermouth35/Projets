@@ -49,6 +49,8 @@ def draw_button():
     screen.blit(button_text, button_text_rect)
     pygame.draw.rect(screen, (0, 0, 0), CP_button_rect)
     screen.blit(CP_button_text, CP_button_text_rect)
+    pygame.draw.rect(screen, (0, 0, 0), Idle_button_rect)
+    screen.blit(Idle_button_text, Idle_button_text_rect)
 
 
 def show_popup(message):
@@ -71,6 +73,10 @@ CP_button_text = CP_button_font.render("Clicking Power +", True, (255, 255, 255)
 CP_button_text_rect = CP_button_text.get_rect(bottomleft=(10, screen.get_height() - 24))
 CP_button_rect = CP_button_text_rect.inflate(15, 15)
 
+Idle_button_font = pygame.font.Font(None, 30)
+Idle_button_text = Idle_button_font.render("Idle Click +", True, (255, 255, 255))
+Idle_button_text_rect = Idle_button_text.get_rect(bottomright=(screen_width - 10, screen.get_height() - 24))
+Idle_button_rect = Idle_button_text_rect.inflate(15, 15)
 
 load_save()
 with open('save.json', 'r') as file:
@@ -91,6 +97,13 @@ while running:
                     save['ClickingPower'] += 1
                 else:
                     show_popup("Score Must Be More Than CP * 5")
+            elif Idle_button_rect.collidepoint(event.pos):
+                if save['score'] >= save['IdleScore'] * 20:
+                    save['score'] -= save['IdleScore'] * 20
+                    save['IdleScore'] += 1
+                else:
+                    show_popup("Score Must Be More Than IC * 20")
+
     if time.time() - last_score_update_time >= idle_score_interval:
         save['score'] += save['IdleScore']
         last_score_update_time = time.time()
@@ -103,6 +116,9 @@ while running:
     CP_font = pygame.font.SysFont("Arial", 24)
     CP_text = CP_font.render("Clicking Power: {}".format(save['ClickingPower']), True, (0, 0, 0))
     screen.blit(CP_text, (400 - CP_text.get_width() - 5, 0))
+    Idle_font = pygame.font.SysFont("Arial", 24)
+    Idle_text = Idle_font.render("Idle Click: {}".format(save['IdleScore']), True, (0, 0, 0))
+    screen.blit(Idle_text, (400 - Idle_text.get_width() - 5, 30))
     pygame.display.flip()
     clock.tick(60)
 
