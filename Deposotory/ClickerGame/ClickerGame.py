@@ -4,7 +4,6 @@ import json
 import os
 import time
 
-
 # save data handling
 
 
@@ -43,6 +42,13 @@ screen_width = 400
 screen_height = 300
 clock = pygame.time.Clock()
 pygame.display.set_caption('Clicker Game')
+
+pygame.mixer.init()
+score_sound = pygame.mixer.Sound('collectcoin-6075.mp3')  # sound by pixabay
+ClickingPower_sound = pygame.mixer.Sound('item-39146.mp3')  # sound by pixabay
+IdleScore_sound = pygame.mixer.Sound('level-up-47165.mp3')  # sound by pixabay
+Error_sound = pygame.mixer.Sound('error-2-36058.mp3')  # sound by pixabay
+
 
 def draw_button():
     pygame.draw.rect(screen, (0, 0, 0), button_rect)
@@ -90,22 +96,27 @@ while running:
         elif event.type == MOUSEBUTTONDOWN:
             if button_rect.collidepoint(event.pos):
                 save['score'] += 1 * save['ClickingPower']
-                print("Button clicked! Score:", save['score'])
+                score_sound.play()
             elif CP_button_rect.collidepoint(event.pos):
                 if save['score'] >= save['ClickingPower'] * 5:
                     save['score'] -= save['ClickingPower'] * 5
                     save['ClickingPower'] += 1
+                    ClickingPower_sound.play()
                 else:
+                    Error_sound.play()
                     show_popup("Score Must Be More Than CP * 5")
             elif Idle_button_rect.collidepoint(event.pos):
                 if save['score'] >= save['IdleScore'] * 20:
                     save['score'] -= save['IdleScore'] * 20
                     save['IdleScore'] += 1
+                    IdleScore_sound.play()
                 else:
+                    Error_sound.play()
                     show_popup("Score Must Be More Than IC * 20")
 
     if time.time() - last_score_update_time >= idle_score_interval:
         save['score'] += save['IdleScore']
+        score_sound.play()
         last_score_update_time = time.time()
 
     screen.fill((0, 128, 255))
