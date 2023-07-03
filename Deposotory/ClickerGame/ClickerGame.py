@@ -37,7 +37,7 @@ idle_score_interval = 2
 # game init
 
 pygame.init()
-screen = pygame.display.set_mode((400, 300))
+screen = pygame.display.set_mode((400, 300), pygame.RESIZABLE)
 screen_width = 400
 screen_height = 300
 clock = pygame.time.Clock()
@@ -113,6 +113,9 @@ while running:
                 else:
                     Error_sound.play()
                     show_popup("Score Must Be More Than IC * 20")
+        elif event.type == pygame.VIDEORESIZE:
+            width, height = event.size
+            screen = pygame.display.set_mode((width, height), pygame.RESIZABLE)
 
     if time.time() - last_score_update_time >= idle_score_interval:
         save['score'] += save['IdleScore']
