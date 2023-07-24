@@ -4,7 +4,7 @@ player_stat_attack = random.randint(1, 10)
 player_stat_defence = random.randint(1, 10)
 enemy_stat_attack = random.randint(1, 13)
 enemy_stat_defence = random.randint(1, 15)
-player_health == random.randint(50, 70)
+player_health = random.randint(50, 70)
 
 if __name__ == '__main__':
     from RPG_inventory_demoV2 import inventory
