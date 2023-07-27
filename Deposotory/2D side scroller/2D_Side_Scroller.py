@@ -8,28 +8,28 @@ import random
 
 
 def load_existing_save(savefile):
-    with open(os.path.join(savefile), 'r+') as file:
-        save = json.load(file)
-    return save
+    with open(os.path.join(savefile), 'r+') as file__:
+        save__ = json.load(file__)
+    return save__
 
 
-def write_save(data):
-    with open(os.path.join(os.getcwd(), 'save.json'), 'w') as file:
-        json.dump(data, file)
+def write_save(data__):
+    with open(os.path.join(os.getcwd(), 'save.json'), 'w') as file__:
+        json.dump(data__, file__)
 
 
 def load_save():
     try:
-        save = load_existing_save('save.json')
+        save__ = load_existing_save('save.json')
     except:
-        save = create_save()
-        write_save(save)
-    return save
+        save__ = create_save()
+        write_save(save__)
+    return save__
 
 
 def create_save():
-    save = {'highscore': 0}
-    return save
+    save__ = {'highscore': 0}
+    return save__
 
 
 class Sprite(pygame.sprite.Sprite):
@@ -43,6 +43,7 @@ class Sprite(pygame.sprite.Sprite):
         self.x_velocity = 0
         self.y_velocity = 0
         self.mask = pygame.mask.from_surface(self.image)
+        self.airborne = True
 
     def update(self):
         # Update the ball's position based on keyboard inputs and velocity
@@ -98,7 +99,7 @@ pygame.display.init()
 screen_width = 600
 screen_height = 400
 screen = pygame.display.set_mode((0, 0), pygame.RESIZABLE, pygame.SHOWN)
-start_time = 0
+last_clock_update = time.time()
 time_clock = 0
 
 pygame.init()
@@ -119,6 +120,7 @@ level = Level('test_level.png', 0, screen_height - 50, screen_width, 50)
 cliff = 300
 platform = Level('platform.png', level.rect.width + cliff, screen_height - 50, screen_width, 50)
 end = Level('platform.png', screen.get_width() - 50, 0, 50, 1000)
+enemy = Level('platform.png', screen.get_width() - 150, 250, 50, 10)
 
 load_save()
 with open('save.json', 'r') as file:
@@ -136,8 +138,9 @@ while running:
     if keyboard.is_pressed('esc'):
         running = False
     elif keyboard.is_pressed('r'):
-        platform = Level('platform.png', level.rect.width + cliff, random.randint(screen_height, screen.get_height()),screen_width, 50)
+        platform = Level('platform.png', level.rect.width + cliff, random.randint(screen_height, screen.get_height()), screen_width, 50)
         level = Level('test_level.png', 0, random.randint(250, screen.get_height()), screen_width, 50)
+        enemy = Level('platform.png', platform.rect.x + random.randint(1, platform.rect.width), platform.rect.y - random.randint(15, 20), random.randint(10, 50), random.randint(1, 15))
         ball.rect.x = 220
         ball.rect.y = 220
         ball.y_velocity = 0
@@ -146,11 +149,20 @@ while running:
         ball.y_velocity = 0
         ball.airborne = False
     elif ball.rect.colliderect(platform.rect):
+        if ball.rect.colliderect(enemy.rect):
+            platform = Level('platform.png', level.rect.width + cliff, random.randint(screen_height, screen.get_height()), screen_width, 50)
+            level = Level('test_level.png', 0, random.randint(250, screen.get_height()), screen_width, 50)
+            enemy = Level('platform.png', platform.rect.x + random.randint(1, platform.rect.width), platform.rect.y - random.randint(15, 20), random.randint(10, 50), random.randint(1, 15))
+            show_popup('Avoid Enemies')
+            ball.rect.x = 220
+            ball.rect.y = 220
+            ball.y_velocity = 0
         ball.y_velocity = 0
         ball.airborne = False
     elif ball.rect.colliderect(end.rect):
         platform = Level('platform.png', level.rect.width + cliff, random.randint(screen_height, screen.get_height()), screen_width, 50)
         level = Level('test_level.png', 0, random.randint(250, screen.get_height()), screen_width, 50)
+        enemy = Level('platform.png', platform.rect.x + random.randint(1, platform.rect.width), platform.rect.y - random.randint(15, 20), random.randint(10, 50), random.randint(1, 15))
         show_popup('Score +1')
         if save['highscore'] == score:
             save['highscore'] += 1
@@ -158,14 +170,26 @@ while running:
         ball.rect.x = 220
         ball.rect.y = 220
         ball.y_velocity = 0
+    elif ball.rect.colliderect(enemy.rect):
+        platform = Level('platform.png', level.rect.width + cliff, random.randint(screen_height, screen.get_height()), screen_width, 50)
+        level = Level('test_level.png', 0, random.randint(250, screen.get_height()), screen_width, 50)
+        enemy = Level('platform.png', platform.rect.x + random.randint(1, platform.rect.width), platform.rect.y - random.randint(15, 20), random.randint(10, 50), random.randint(1, 15))
+        show_popup('Avoid Enemies')
+        ball.rect.x = 220
+        ball.rect.y = 220
+        ball.y_velocity = 0
     else:
         ball.y_velocity = ball.y_velocity - 0.5
+    if time.time() - last_clock_update >= 1:
+        time_clock += 1
+        last_clock_update = time.time()
     screen.fill((100, 128, 255))
     ball.update()
     ball.draw()
     level.draw()
     platform.draw()
     end.draw()
+    enemy.draw()
     high_score_text = font.render("High Score: {}".format(save['highscore']), True, (0, 0, 0))
     screen.blit(high_score_text, (10, 0))
     score_text = font.render("Score: {}".format(score), True, (0, 0, 0))
@@ -179,12 +203,11 @@ while running:
     pygame.draw.rect(screen, (255, 255, 255), level.rect, 3)
     pygame.draw.rect(screen, (255, 255, 255), platform.rect, 3)
     pygame.draw.rect(screen, (100, 255, 150), end.rect, 3)
+    pygame.draw.rect(screen, (255, 100, 150), enemy.rect, 3)
     pygame.display.flip()
     clock.tick(60)
     ran_time = time.time()
-    if ran_time == start_time + 1:
-        time_clock += 1
-        start_time = time.time()
+
 
 data = {"highscore": save['highscore']}
 with open('save.json', 'w') as file:
