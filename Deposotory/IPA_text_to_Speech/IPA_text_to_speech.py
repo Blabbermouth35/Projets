@@ -18,6 +18,7 @@ if __name__ == '__main__':
     ipa_sounds = get_ipa_list()
     word_dict = get_word_list()
     x = input("Input any word in the English language:")
+    x = x.lower()
     try:
         edited_ipa_key = word_dict[x]
     except KeyError:
