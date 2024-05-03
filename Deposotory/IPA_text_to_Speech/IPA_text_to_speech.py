@@ -1,5 +1,6 @@
 import json
 import pygame
+import time
 if __name__ == '__main__':
     def get_word_list():
         with open('en_UK.json', 'r', encoding='utf-8') as data:
@@ -40,3 +41,4 @@ if __name__ == '__main__':
         print(ipa_sounds.get(i))
         current_sound = pygame.mixer.Sound(str(ipa_sounds.get(i)))
         current_sound.play()
+        time.sleep(1)
