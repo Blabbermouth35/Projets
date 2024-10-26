@@ -3,7 +3,7 @@ import pygame
 import time
 
 # TODO:
-#    Do more testing, expend the dictionary
+#    Do more testing, expend the dictionary: as, seashore
 if __name__ == '__main__':
     def get_word_list():
         with open('en_UK.json', 'r', encoding='utf-8') as data:
