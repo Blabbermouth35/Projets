@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="103bcc62-e072-41c3-ba70-3f432612d557" name="Changes" comment="A circle with a radius that follows the cursor. It tells you the 6 main trigonometric functions. If you press &quot;g&quot; while moving the cursor, it shows you a sine wave. I just realised that I wrote the file name wrong.....">
-      <change afterPath="$PROJECT_DIR$/Deposotory/Permutation_project.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Deposotory/permutation_func.py" afterDir="false" />
+    <list default="true" id="103bcc62-e072-41c3-ba70-3f432612d557" name="Changes" comment="A recursive permutation function, and a word scrambler">
+      <change beforePath="$PROJECT_DIR$/Deposotory/Permutation_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Deposotory/Permutation_project.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <workItem from="1715629410085" duration="369000" />
       <workItem from="1717317630377" duration="346000" />
       <workItem from="1729972875503" duration="14050000" />
-      <workItem from="1742822157960" duration="3391000" />
+      <workItem from="1742822157960" duration="3852000" />
     </task>
     <task id="LOCAL-00001" summary="IT WORKS!!!!">
       <option name="closed" value="true" />
@@ -225,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729987017725</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="A recursive permutation function, and a word scrambler">
+      <option name="closed" value="true" />
+      <created>1742825638841</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1742825638841</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,13 +251,14 @@
     <MESSAGE value="It works!" />
     <MESSAGE value="TODO: Do more testing, expend the dictionary" />
     <MESSAGE value="A circle with a radius that follows the cursor. It tells you the 6 main trigonometric functions. If you press &quot;g&quot; while moving the cursor, it shows you a sine wave. I just realised that I wrote the file name wrong....." />
-    <option name="LAST_COMMIT_MESSAGE" value="A circle with a radius that follows the cursor. It tells you the 6 main trigonometric functions. If you press &quot;g&quot; while moving the cursor, it shows you a sine wave. I just realised that I wrote the file name wrong....." />
+    <MESSAGE value="A recursive permutation function, and a word scrambler" />
+    <option name="LAST_COMMIT_MESSAGE" value="A recursive permutation function, and a word scrambler" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Projets$ipa_text_to_speech.coverage" NAME="ipa_text_to_speech Coverage Results" MODIFIED="1742825388854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory/IPA_text_to_Speech" />
     <SUITE FILE_PATH="coverage/Projets$Sj_Projet.coverage" NAME="Sj_Projet Coverage Results" MODIFIED="1729985053156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
     <SUITE FILE_PATH="coverage/Projets$PACG.coverage" NAME="PACG Coverage Results" MODIFIED="1705476257733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory/Turn Based RPG" />
-    <SUITE FILE_PATH="coverage/Projets$Permutation_project.coverage" NAME="Permutation_project Coverage Results" MODIFIED="1742825225988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
+    <SUITE FILE_PATH="coverage/Projets$Permutation_project.coverage" NAME="Permutation_project Coverage Results" MODIFIED="1742826041576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
     <SUITE FILE_PATH="coverage/Projets$permutation_func.coverage" NAME="permutation_func Coverage Results" MODIFIED="1742824457894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
     <SUITE FILE_PATH="coverage/Projets$Angle_trifoncs.coverage" NAME="Angle_trifoncs Coverage Results" MODIFIED="1729986527476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
     <SUITE FILE_PATH="coverage/Projets$Going_through_walls.coverage" NAME="Going_through_walls Coverage Results" MODIFIED="1729985087814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />

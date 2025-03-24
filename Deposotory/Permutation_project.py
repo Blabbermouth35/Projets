@@ -40,5 +40,6 @@ for element in permutations:
         result = " ".join(intermediate)
     output.append(result)
 
-print(output)
+for i in output:
+    print(i)
 print(f"The amount of permutations: {len(output)}")
