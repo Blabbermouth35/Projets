@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="103bcc62-e072-41c3-ba70-3f432612d557" name="Changes" comment="A circle with a radius that follows the cursor. It tells you the 6 main trigonometric functions. If you press &quot;g&quot; while moving the cursor, it shows you a sine wave. I just realised that I wrote the file name wrong.....">
+      <change afterPath="$PROJECT_DIR$/Deposotory/Permutation_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Deposotory/permutation_func.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2Rl4K2dGwxL9jgFLo6Mzlfjtvnk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zafer/PycharmProjects/Projets/Deposotory/IPA_text_to_Speech&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zafer\PycharmProjects\Projets\Deposotory\IPA_text_to_Speech" />
+      <recent name="C:\Users\zafer\PycharmProjects\Projets\Deposotory\ClickerGame" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zafer\PycharmProjects\Projets\Deposotory\IPA_text_to_Speech\ipa_sound_files" />
+      <recent name="C:\Users\zafer\PycharmProjects\Projets\Deposotory\IPA_text_to_Speech" />
+      <recent name="C:\Users\zafer\PycharmProjects\Projets\Deposotory" />
+      <recent name="C:\Users\zafer\PycharmProjects\Projets\Deposotory\Point And Click Adventure" />
+      <recent name="C:\Users\zafer\PycharmProjects\Projets\Deposotory\ClickerGame" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="103bcc62-e072-41c3-ba70-3f432612d557" name="Changes" comment="" />
+      <created>1687811266465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687811266465</updated>
+      <workItem from="1691931474158" duration="214000" />
+      <workItem from="1692118457329" duration="9000" />
+      <workItem from="1697816719985" duration="228000" />
+      <workItem from="1699875791328" duration="271000" />
+      <workItem from="1705475625852" duration="1381000" />
+      <workItem from="1707669939673" duration="307000" />
+      <workItem from="1714638548859" duration="11923000" />
+      <workItem from="1714668105253" duration="11267000" />
+      <workItem from="1714760611951" duration="7379000" />
+      <workItem from="1714769127885" duration="158000" />
+      <workItem from="1715629410085" duration="369000" />
+      <workItem from="1717317630377" duration="346000" />
+      <workItem from="1729972875503" duration="14050000" />
+      <workItem from="1742822157960" duration="3391000" />
+    </task>
+    <task id="LOCAL-00001" summary="IT WORKS!!!!">
+      <option name="closed" value="true" />
+      <created>1687817259673</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687817259673</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added a lot of things">
+      <option name="closed" value="true" />
+      <created>1687859432469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687859432469</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Idle Clicking">
+      <option name="closed" value="true" />
+      <created>1687861010208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687861010208</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Sounds">
+      <option name="closed" value="true" />
+      <created>1687862967975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687862967975</updated>
+    </task>
+    <task id="LOCAL-00005" summary="started">
+      <option name="closed" value="true" />
+      <created>1688383682718</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688383682718</updated>
+    </task>
+    <task id="LOCAL-00006" summary="started">
+      <option name="closed" value="true" />
+      <created>1688383840663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688383840663</updated>
+    </task>
+    <task id="LOCAL-00007" summary="started">
+      <option name="closed" value="true" />
+      <created>1688396481977</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688396481977</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finally done something">
+      <option name="closed" value="true" />
+      <created>1690220556548</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690220556548</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added a lot">
+      <option name="closed" value="true" />
+      <created>1690386851226</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690386851226</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed timer, added enemy">
+      <option name="closed" value="true" />
+      <created>1690446360230</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690446360230</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bad text to speech. problem with playing audio files rn">
+      <option name="closed" value="true" />
+      <created>1714679151100</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714679151100</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bad text to speech. problem with playing audio files rn">
+      <option name="closed" value="true" />
+      <created>1714764716310</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714764716310</updated>
+    </task>
+    <task id="LOCAL-00013" summary="It works!">
+      <option name="closed" value="true" />
+      <created>1714766103786</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1714766103786</updated>
+    </task>
+    <task id="LOCAL-00014" summary="It works!">
+      <option name="closed" value="true" />
+      <created>1714766137610</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714766137610</updated>
+    </task>
+    <task id="LOCAL-00015" summary="TODO: Do more testing, expend the dictionary">
+      <option name="closed" value="true" />
+      <created>1714769013547</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714769013547</updated>
+    </task>
+    <task id="LOCAL-00016" summary="TODO: Do more testing, expend the dictionary">
+      <option name="closed" value="true" />
+      <created>1714769244417</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1714769244417</updated>
+    </task>
+    <task id="LOCAL-00017" summary="A circle with a radius that follows the cursor. It tells you the 6 main trigonometric functions. If you press &quot;g&quot; while moving the cursor, it shows you a sine wave. I just realised that I wrote the file name wrong.....">
+      <option name="closed" value="true" />
+      <created>1729987017725</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1729987017725</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="IT WORKS!!!!" />
+    <MESSAGE value="Added a lot of things" />
+    <MESSAGE value="Added Idle Clicking" />
+    <MESSAGE value="Added Sounds" />
+    <MESSAGE value="started" />
+    <MESSAGE value="finally done something" />
+    <MESSAGE value="added a lot" />
+    <MESSAGE value="fixed timer, added enemy" />
+    <MESSAGE value="bad text to speech. problem with playing audio files rn" />
+    <MESSAGE value="It works!" />
+    <MESSAGE value="TODO: Do more testing, expend the dictionary" />
+    <MESSAGE value="A circle with a radius that follows the cursor. It tells you the 6 main trigonometric functions. If you press &quot;g&quot; while moving the cursor, it shows you a sine wave. I just realised that I wrote the file name wrong....." />
+    <option name="LAST_COMMIT_MESSAGE" value="A circle with a radius that follows the cursor. It tells you the 6 main trigonometric functions. If you press &quot;g&quot; while moving the cursor, it shows you a sine wave. I just realised that I wrote the file name wrong....." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Projets$ipa_text_to_speech.coverage" NAME="ipa_text_to_speech Coverage Results" MODIFIED="1742825388854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory/IPA_text_to_Speech" />
+    <SUITE FILE_PATH="coverage/Projets$Sj_Projet.coverage" NAME="Sj_Projet Coverage Results" MODIFIED="1729985053156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
+    <SUITE FILE_PATH="coverage/Projets$PACG.coverage" NAME="PACG Coverage Results" MODIFIED="1705476257733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory/Turn Based RPG" />
+    <SUITE FILE_PATH="coverage/Projets$Permutation_project.coverage" NAME="Permutation_project Coverage Results" MODIFIED="1742825225988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
+    <SUITE FILE_PATH="coverage/Projets$permutation_func.coverage" NAME="permutation_func Coverage Results" MODIFIED="1742824457894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
+    <SUITE FILE_PATH="coverage/Projets$Angle_trifoncs.coverage" NAME="Angle_trifoncs Coverage Results" MODIFIED="1729986527476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
+    <SUITE FILE_PATH="coverage/Projets$Going_through_walls.coverage" NAME="Going_through_walls Coverage Results" MODIFIED="1729985087814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
+    <SUITE FILE_PATH="coverage/Projets$IPA_text_to_speech.coverage" NAME="IPA_text_to_speech Coverage Results" MODIFIED="1714768561996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory/IPA_text_to_Speech" />
+    <SUITE FILE_PATH="coverage/Projets$weirdly_coloured_ball.coverage" NAME="weirdly_coloured_ball Coverage Results" MODIFIED="1707670128372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory/2D side scroller" />
+    <SUITE FILE_PATH="coverage/Projets$Küpler.coverage" NAME="Küpler Coverage Results" MODIFIED="1705475663704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
+    <SUITE FILE_PATH="coverage/Projets$Graphic.coverage" NAME="Graphic Coverage Results" MODIFIED="1707670221070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
+    <SUITE FILE_PATH="coverage/Projets$ClickerGame.coverage" NAME="ClickerGame Coverage Results" MODIFIED="1714679165065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory/ClickerGame" />
+    <SUITE FILE_PATH="coverage/Projets$2D_Side_Scroller.coverage" NAME="2D_Side_Scroller Coverage Results" MODIFIED="1717317820011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory/2D side scroller" />
+    <SUITE FILE_PATH="coverage/Projets$ipa_audiofile_reading.coverage" NAME="ipa_audiofile_reading Coverage Results" MODIFIED="1714676162174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory/IPA_text_to_Speech/ipa_sound_files" />
+    <SUITE FILE_PATH="coverage/Projets$test.coverage" NAME="test Coverage Results" MODIFIED="1714646889077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory/IPA_text_to_Speech" />
+    <SUITE FILE_PATH="coverage/Projets$K.coverage" NAME="K Coverage Results" MODIFIED="1729985066554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Deposotory" />
+  </component>
+</project>
