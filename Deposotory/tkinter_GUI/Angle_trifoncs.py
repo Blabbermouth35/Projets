@@ -110,7 +110,7 @@ def main(event):
 
         plt.show()
 
-    for i in range(10):  # If I put this and the graph() outside of the main loop, this for loop only goes off once. I cannot fix it, I'm way too tired its 3am. If you press "g" while moving your mouse, it works. Goodbye thank you for reading. I hope you had a good day. This thing has beaten me. Maybe one day I'll return here. Maybe...
+    for i in range(10): 
         if keyboard.is_pressed("g"):
             graph()
 
