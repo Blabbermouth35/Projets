@@ -4,8 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import keyboard
 
-# I know I should probably just use either numpy or math, but it's way too late to change
-
 window = tk.Tk()
 window.title("TRIGONOMETRIC FUNCTIONS")
 window.geometry("900x600")
@@ -89,8 +87,6 @@ def main(event):
             cosec = "undefined"
     except:
         cosec = "undefined"
-
-# math.tan()/.cot()/.sec()/.cosec() can go ..... themselves
 
     def update_text():
         canvas.itemconfig(rad_text, text=f"Angle: {angle}°")
